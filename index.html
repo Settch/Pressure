@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Pressure</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="base.jpg" alt="">
+            <p>Você é um prisioneiro que foi enviado em uma expedição para recuperar um cristal numa base marítima em troca de liberdade, pois seu retorno não é cogitado. 
+                É concedido a permissão de entrar no portão da base ou na fenda misteriosa que sumiu com parte da Base. 
+            </p>
+            <button class="btn-proximo" data-proximo="1">Entrar no portão.</button>
+            <button class="btn-proximo" data-proximo="2">Seguir pela Fenda misteriosa.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Depois de explorar a um pouco, você se depara com 2 portas suspeitas, em qual você adentra?</p>
+            <button class="btn-proximo" data-proximo="3">Entrar na porta da esquerda.</button>
+            <button class="btn-proximo" data-proximo="4">Entrar na porta da direita.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Depois de seguir pela fenda, você se depara com uma ventilação e uma estrutura de escritório.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir para o escritório</button>
+            <button class="btn-proximo" data-proximo="6">Seguir na ventilação</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Depois de seguir pela porta, você se vê num corredor.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir pelo corredor.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="sorrisin.jpg" alt="">
+            <p>Você não vai viver mais para sorrir depois de encontrar o <span>Good People</span></p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No escritório, você encontra alguns arquivos que indicam a localização do Crystal, apontando para a sala dos motores.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a sala dos motores.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Indo pela tubulação, você se perde e encontra uma sala cheia de esculturas e encontra um soldado ferido.</p>
+            <button class="btn-proximo" data-proximo="8">Falar com o soldado ferido.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você se depara na sala de motores, a luz começa a piscar e você fica apavorado escutando uma voz mandar você entrar no armário.</p>
+            <button class="btn-proximo" data-proximo="9">Confiar na voz e entrar no armário.</button>
+            <button class="btn-proximo" data-proximo="10">Não confiar e ficar para fora.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Ele diz para você sair o mais rápido possível daquele local e diz para se afastar da sala de motores, logo depois ele falece.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a sala de motores.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Depois de entrar e esperar o barulho passar, você escuta gritos por ajuda.</p>
+            <button class="btn-proximo" data-proximo="11">Sair do Armário.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="pande.jpg" alt="Pande">
+            <p>Sua vida foi ceifada pelo <span>Pandemonium</span></p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="vultu.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Sua sentença de morte foi decretada ao encontrar o <span>Vultus Limunaria</span></p>
+        </div>
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
